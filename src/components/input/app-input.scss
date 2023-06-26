@@ -1,0 +1,72 @@
+@import '../../assets/styles/variables.scss';
+
+.app-input {
+    width: 100%;
+    height: 52px;
+    padding: 5px;
+    border: 1.5px solid $border-color;
+    border-radius: 4px;
+    background-color: $second-white;
+    letter-spacing: 0.18px;
+    position: relative;
+    pointer-events: none;
+
+    &:focus-within {
+        border: 1.5px solid $green;
+    }
+
+    input  {
+        width: 100%;
+        min-height: 100%;
+        padding: 0 40px 0 0;
+        font-size: 18px;
+        font-weight: 200;
+        color: $black;
+        outline: none;
+        border: none;
+        pointer-events: auto;
+
+        &:focus {
+            ~.app-input__placeholder {
+                visibility: visible;
+            }
+            &::placeholder {
+                opacity: 0;
+            }
+        }
+
+        &::placeholder {
+            color: $black;
+        }
+    }
+
+    &.no-empty {
+        border: 1.5px solid $green;
+
+        .app-input__placeholder {
+            visibility: visible;
+        }
+        input::placeholder {
+            opacity: 0;
+        }
+
+    }
+
+    &__placeholder {
+        visibility: hidden;
+        position: absolute;
+        top: -11px;
+        left: 15px;
+        padding: 0 5px;
+        background-color: $second-white;
+        font-size: 14px;
+        color: $green;
+    }
+
+    &__eye {
+        position: absolute;
+        top: 13px;
+        right: 15px;
+        pointer-events: all;
+    }
+}

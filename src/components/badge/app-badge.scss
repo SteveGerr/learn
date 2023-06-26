@@ -1,0 +1,17 @@
+@import '../../assets/styles/variables.scss';
+
+.app-badge {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+
+    &__image {
+        width: 24px;
+        height: 24px;
+    }
+
+    &__text {
+        font-size: $text-size;
+        letter-spacing: 0.18px;
+    }
+}

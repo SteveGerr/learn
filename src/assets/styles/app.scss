@@ -1,0 +1,121 @@
+@import 'variables.scss';
+
+.app-content {
+    margin: 140px 0 0 0;
+    background-color: $background;
+
+    @media(max-width: 500px) {
+        margin: 40px 0 0 0;
+    }
+}
+
+.left-block {
+    margin: 0 0 100px 22%;
+
+    @media(max-width: 1024px) {
+        margin: 0 0 50px 0;
+    }
+}
+
+.right-block {
+    img {
+        max-width: 845px;
+
+        @media(max-width: 768px) {
+            min-width: 300px;
+        }
+    }
+}
+
+.app-slogan {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 23px;
+    font-size: $heading-1;
+    font-weight: 800;
+    letter-spacing: 0.64px;
+
+    @media(max-width: 1451px) {
+        font-size: $heading-1_mobile;
+    }
+}
+
+.app-text {
+    margin-bottom: 30px;
+    font-size: $text-size;
+    line-height: 26px;
+    letter-spacing: 0.18px;
+    color: $light-grey;
+}
+
+.advantages {
+    margin-bottom: 38px;
+
+    @media(max-width: 450px) {
+        flex-direction: column;
+    }
+}
+
+.app-button.app-start-btn {
+    min-width: 220px;
+    padding: 14px;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+}
+
+// svg
+.elipse {
+    position: absolute;
+    top: -240px;
+    left: -240px;
+    width: 100%;
+    max-width: 138px;
+
+    @media(max-width: 1600px) {
+        top: -170px;
+        left: -210px;
+        width: 100%;
+        max-width: 110px;
+    }
+}
+
+.highlight {
+    position: absolute;
+    top: -140px;
+    right: -85px;
+    width: 100%;
+    max-width: 255px;
+
+    @media(max-width: 1451px) {
+        top: -90px;
+        max-width: 200px;
+        z-index: 0;
+    }
+
+}
+
+.line-svg {
+    position: absolute;
+    left: -245px;
+    bottom: -111px;
+    width: 100%;
+    max-width: 382px;
+
+    @media(max-width: 1024px) {
+        left: -70px;
+    }
+}
+
+.arrow-down {
+    position: absolute;
+    bottom: -86px;
+    right: -113px;
+    width: 100%;
+    max-width: 217px;
+
+    @media(max-width: 1024px) {
+        right: -25px;
+        bottom: -30px;
+    }
+
+}

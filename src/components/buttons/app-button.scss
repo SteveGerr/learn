@@ -1,0 +1,27 @@
+@import '../../assets/styles/variables.scss';
+
+.app-button {
+    padding: 9px 17px;
+    background-color: $green;
+    border-radius: 12px;
+    color: $white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $green-hover;
+        color: $white;
+    }
+
+    &.link {
+        background-color: transparent;
+        color: $green;
+
+        &:hover {
+            color: $green-hover;
+        }
+    }
+}
