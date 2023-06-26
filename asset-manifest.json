@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/SteveGerr/learn/static/css/main.5db31cbc.css",
+    "main.js": "/SteveGerr/learn/static/js/main.ae87ecd0.js",
+    "static/js/787.7d3d693b.chunk.js": "/SteveGerr/learn/static/js/787.7d3d693b.chunk.js",
+    "static/media/man.png": "/SteveGerr/learn/static/media/man.69b353b28cc574970f55.png",
+    "static/media/Inter-ExtraBold.woff": "/SteveGerr/learn/static/media/Inter-ExtraBold.589aaa938b49be935427.woff",
+    "static/media/Inter-SemiBold.woff": "/SteveGerr/learn/static/media/Inter-SemiBold.b1cdc42ce8d7738cc897.woff",
+    "static/media/Inter-ExtraLight.woff": "/SteveGerr/learn/static/media/Inter-ExtraLight.abc6c6573f4198a1aac3.woff",
+    "static/media/Inter-Regular.woff": "/SteveGerr/learn/static/media/Inter-Regular.82b33bba13f72a5a5a37.woff",
+    "static/media/Inter-SemiBold.woff2": "/SteveGerr/learn/static/media/Inter-SemiBold.ab564c2dbbe039da8cb5.woff2",
+    "static/media/Inter-ExtraBold.woff2": "/SteveGerr/learn/static/media/Inter-ExtraBold.7512b86dc7ea6a584a49.woff2",
+    "static/media/Inter-ExtraLight.woff2": "/SteveGerr/learn/static/media/Inter-ExtraLight.c7d92f781f7798a55f49.woff2",
+    "static/media/Inter-Regular.woff2": "/SteveGerr/learn/static/media/Inter-Regular.6fcad65b7a8f7ffabb8e.woff2",
+    "static/media/Highlight_10.svg": "/SteveGerr/learn/static/media/Highlight_10.c9c616d341b9ceff17ecebcad024c232.svg",
+    "static/media/arrow-down.svg": "/SteveGerr/learn/static/media/arrow-down.19e7ad0110b835f5f4246313f3492a37.svg",
+    "static/media/mingcute_certificate-line.svg": "/SteveGerr/learn/static/media/mingcute_certificate-line.ffd5f3d3d7e454975d5ac62e529f72f2.svg",
+    "static/media/Line-6.svg": "/SteveGerr/learn/static/media/Line-6.b848f23973fcbf5bdf58f13b1a209169.svg",
+    "static/media/logo-svg.svg": "/SteveGerr/learn/static/media/logo-svg.6bead72bf9d72efe8270291a1b0bb759.svg",
+    "static/media/eye-off.svg": "/SteveGerr/learn/static/media/eye-off.5452188ed5369b019fa5789738496423.svg",
+    "index.html": "/SteveGerr/learn/index.html",
+    "static/media/dollar-sign.svg": "/SteveGerr/learn/static/media/dollar-sign.dfd3cf883d108f12ee491239c5225adb.svg",
+    "static/media/book.svg": "/SteveGerr/learn/static/media/book.4843f056e3ba9ce2f2bb1a778cd3ff95.svg",
+    "static/media/eye.svg": "/SteveGerr/learn/static/media/eye.6f1e3f44fa3efb5bc13690d3fe3c5d6f.svg",
+    "static/media/x.svg": "/SteveGerr/learn/static/media/x.27b0d2a0728a6d8db89607b80442be08.svg",
+    "static/media/chevron-down.svg": "/SteveGerr/learn/static/media/chevron-down.e60181668cc23757c2ef.svg",
+    "static/media/Ellipse.svg": "/SteveGerr/learn/static/media/Ellipse.239b315b5f6d94abb15552dd806263f3.svg",
+    "main.5db31cbc.css.map": "/SteveGerr/learn/static/css/main.5db31cbc.css.map",
+    "main.ae87ecd0.js.map": "/SteveGerr/learn/static/js/main.ae87ecd0.js.map",
+    "787.7d3d693b.chunk.js.map": "/SteveGerr/learn/static/js/787.7d3d693b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5db31cbc.css",
+    "static/js/main.ae87ecd0.js"
+  ]
+}
