@@ -1,7 +1,9 @@
 import AppButton from '../../buttons/AppButton';
 import AppCheckbox from '../../checkbox/AppCheckbox';
 import AppInput from '../../input/AppInput';
+import AppSelect from '../../select/AppSelect';
 import CloseSvg from '../../../assets/svg/x.svg';
+
 import './modal-registration.scss';
 import { Image } from 'react-bootstrap';
 
@@ -20,6 +22,7 @@ const ModalRegistration = ({ closeModal }) => {
                     <AppInput type='text' placeholder='Name Surname' />
                     <AppInput type='text' placeholder='Email' />
                     <AppInput type='text' placeholder='Phone' />
+                    <AppSelect />
                     <AppInput type='password' placeholder='Password' />
                     <AppInput type='password' placeholder='Confirm password' />
                 </form>

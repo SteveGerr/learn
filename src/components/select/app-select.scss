@@ -1,0 +1,13 @@
+@import '../../assets/styles/variables.scss';
+
+.form-select {
+    height: 52px;
+    border: 1.5px solid $border-color;
+    border-radius: 4px;
+    color: $black;
+
+    &:focus {
+        border-color: $green;
+        box-shadow: none;
+    }
+}
